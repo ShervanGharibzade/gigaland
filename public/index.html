@@ -1,0 +1,358 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="assets/css/default.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>gigaland</title>
+</head>
+<body class="bg-slate-900 scroll-smooth z-50">
+<header class="fixed bg-regal-blue overflow-hidden z-10 px-5 relative sm:px-20 border-b border-gray-700 ">
+    <div class="flex mx-auto md:max-w-screen-lg">
+        <div class="flex relative flex-2 py-5 justify-start w-3/6">
+            <img class="cursor-pointer" src="assets/images/logo-light.png" alt="logo">
+            <input class="hidden mm:block bg-back-input rounded ml-10 text-white
+             p-2 h-8 w-5/12 mt-1.5 placeholder-white" type="text"
+                   placeholder="search item here...">
+        </div>
+        <nav class="flex-1 -z-10 justify-end mr-4 md:flex">
+            <ul id="nav" class="bg-regal-blue -z-10 block absolute w-full left-0 px-4 top-16 justify-end gap-8 text-white text-sm md:bg-inherit md:w-auto md:text-white md:px-0 md:flex md:relative md:top-0">
+                <li class="group relative">
+                    <a id="A" class="group cursor-pointer border-b border-gray-700 relative md:flex my-6 font-medium pb-1 block md:after:[''] md:after:absolute md:after:top-5 md:after:border-b-0 md:after:hover:border-b-2 md:after:w-0 md:after:hover:w-full md:after:hover:border-indigo-500  md:after:transition-all md:after:duration-300 ">
+                        Home
+                        <i class="fa fa-angle-down float-right justify-end md:float-none  mt-1.5 ml-1" aria-hidden="true"></i>
+                    </a>
+                    <div class="hidden block relative md:absolute md:top-20 md:-left-3 md:w-48  md:z-10 md:bg-List-nav rounded group-hover:block ">
+                        <a class="cursor-pointer text-sm block p-3 border-b border-gray-700 hover:bg-button rounded-t-sm transition duration-200">Homepage1</a>
+                        <a class="cursor-pointer text-sm block p-3 border-b border-gray-700 hover:bg-button transition duration-200">Homepage2</a>
+                        <a class="cursor-pointer text-sm block p-3 border-b border-gray-700 hover:bg-button transition duration-200">Homepage3</a>
+                        <a class="cursor-pointer text-sm block p-3 border-b border-gray-700 hover:bg-button transition duration-200">Homepage4</a>
+                        <a class="cursor-pointer text-sm block p-3 hover:bg-button rounded-b-sm transition duration-200">Homepage5</a>
+                    </div>
+                </li>
+                <li class="group">
+                    <a class="cursor-pointer relative border-b border-gray-700  font-medium pb-1 block md:flex my-6 md:after:[''] md:after:absolute md:after:top-5 md:after:border-b-0 md:after:hover:border-b-2 md:after:w-0 md:after:hover:w-full md:after:hover:border-indigo-500  md:after:transition-all md:after:duration-300">
+                        Explore
+                        <i class="fa fa-angle-down mt-1.5 ml-1 float-right md:float-none" aria-hidden="true"></i>
+                    </a>
+                    <div class="hidden block md:absolute md:top-20 md:left-20 md:w-48  md:z-10 md:bg-List-nav rounded group-hover:block">
+                        <a class="cursor-pointer text-sm block p-3 border-b border-gray-700 hover:bg-button rounded-t-sm transition duration-200">Explore1</a>
+                        <a class="cursor-pointer text-sm block p-3 border-b border-gray-700 hover:bg-button transition duration-200">Explore2</a>
+                        <a class="cursor-pointer text-sm block p-3 border-b border-gray-700 hover:bg-button transition duration-200">Explore3</a>
+                        <a class="cursor-pointer text-sm block p-3 border-b border-gray-700 hover:bg-button rounded-b-sm transition duration-200">Explore4</a>
+                    </div>
+                    </li>
+                <li class="group">
+                    <a class="cursor-pointer relative border-b border-gray-700  font-medium pb-1 block md:flex my-6 md:after:[''] md:after:absolute md:after:top-5 md:after:border-b-0 md:after:hover:border-b-2 md:after:w-0 md:after:hover:w-full md:after:hover:border-indigo-500  md:after:transition-all md:after:duration-300">
+                        Pages
+                        <i class="fa fa-angle-down mt-1.5 ml-1 float-right md:float-none" aria-hidden="true"></i>
+                    </a>
+                    <div class="hidden block md:absolute md:top-20 md:left-40 md:w-48  md:z-10 md:bg-List-nav rounded group-hover:block">
+                        <a class="cursor-pointer text-sm block p-3 border-b border-gray-700 hover:bg-button rounded-t-sm transition duration-200">Pages1</a>
+                        <a class="cursor-pointer text-sm block p-3 border-b border-gray-700 hover:bg-button transition duration-200">Pages2</a>
+                        <a class="cursor-pointer text-sm block p-3 border-b border-gray-700 hover:bg-button transition duration-200">Pages3</a>
+                        <a class="cursor-pointer text-sm block p-3 border-b border-gray-700 hover:bg-button transition duration-200">Pages4</a>
+                        <a class="cursor-pointer text-sm block p-3 border-b border-gray-700 hover:bg-button transition duration-200">Pages5</a>
+                        <a class="cursor-pointer text-sm block p-3 border-b border-gray-700 hover:bg-button transition duration-200">Pages6</a>
+                        <a class="cursor-pointer text-sm block p-3 border-b border-gray-700 hover:bg-button transition duration-200">Pages7</a>
+                        <a class="cursor-pointer text-sm block p-3 border-b border-gray-700 hover:bg-button transition duration-200">Pages8</a>
+                        <a class="cursor-pointer text-sm block p-3 border-b border-gray-700 hover:bg-button rounded-b-sm transition duration-200">Pages9</a>
+                    </div>
+                </li>
+                <li class="group">
+                    <a class="cursor-pointer relative border-b border-gray-700  font-medium pb-1 block md:flex my-6 md:after:[''] md:after:absolute md:after:top-5 md:after:border-b-0 md:after:hover:border-b-2 md:after:w-0 md:after:hover:w-full md:after:hover:border-indigo-500  md:after:transition-all md:after:duration-300">
+                        Stats
+                        <i class="fa fa-angle-down mt-1.5 ml-1 float-right md:float-none" aria-hidden="true"></i>
+                    </a>
+                    <div class="hidden block md:absolute md:top-20 md:left-60 md:w-48  md:z-10 md:bg-List-nav rounded group-hover:block">
+                        <a class="cursor-pointer text-sm block p-3 border-b border-gray-700 hover:bg-button rounded-t-sm transition duration-200">Stats1</a>
+                        <a class="cursor-pointer text-sm block p-3 border-b border-gray-700 hover:bg-button rounded-b-sm transition duration-200">Stats2</a>
+                    </div>
+                </li>
+                <li class="group">
+                    <a class="cursor-pointer relative border-b border-gray-700 font-medium pb-1 block md:flex my-6 md:after:[''] md:after:absolute md:after:top-5 md:after:border-b-0 md:after:hover:border-b-2 md:after:w-0 md:after:hover:w-full md:after:hover:border-indigo-500  md:after:transition-all md:after:duration-300">
+                        Elements
+                        <i class="fa fa-angle-down mt-1.5 ml-1 float-right md:float-none" aria-hidden="true"></i>
+                    </a>
+                    <div class="hidden block md:absolute md:top-20 md:left-100 md:w-48  md:z-10 md:bg-List-nav rounded group-hover:block">
+                        <a class="cursor-pointer text-sm block p-3 border-b border-gray-700 hover:bg-button rounded-t-sm transition duration-200">Elements1</a>
+                        <a class="cursor-pointer text-sm block p-3 border-b border-gray-700 hover:bg-button transition duration-200">Elements2</a>
+                        <a class="cursor-pointer text-sm block p-3 border-b border-gray-700 hover:bg-button transition duration-200">Elements3</a>
+                        <a class="cursor-pointer text-sm block p-3 border-b border-gray-700 hover:bg-button transition duration-200">Elements4</a>
+                        <a class="cursor-pointer text-sm block p-3 border-b border-gray-700 hover:bg-button transition duration-200">Elements5</a>
+                        <a class="cursor-pointer text-sm block p-3 border-b border-gray-700 hover:bg-button transition duration-200">Elements6</a>
+                        <a class="cursor-pointer text-sm block p-3 border-b border-gray-700 hover:bg-button transition duration-200">Elements7</a>
+                        <a class="cursor-pointer text-sm block p-3 border-b border-gray-700 hover:bg-button transition duration-200">Elements8</a>
+                        <a class="cursor-pointer text-sm block p-3 border-b border-gray-700 hover:bg-button transition duration-200">Elements9</a>
+                        <a class="cursor-pointer text-sm block p-3 border-b border-gray-700 hover:bg-button rounded-b-sm transition duration-200">Elements10</a>
+                    </div>
+                </li>
+            </ul>
+        </nav>
+        <div id="button" class="flex justify-end flex-1 md:w-1/6">
+            <button class="hidden h-6 relative flex xd:flex">
+                <a class="flex flex-nowrap my-6 bg-button text-sm px-5 py-1.5 text-white
+                 rounded mm:pb-1.5 mm:pt-1 mm:px-6 mm:text-md mm:font-medium shadow-lg
+                  transition duration-200 hover:shadow-indigo-500/50">
+                    <span class="w-max font-medium">Connect Wallet</span>
+                </a>
+            </button>
+            <span class="block xd:hidden text-white flex">
+                <i class="fa fa-credit-card-alt flex flex-nowrap bg-button my-6 bg-button mr-2 text-sm px-3 py-1.5 text-white rounded" aria-hidden="true"></i>
+            </span>
+        </div>
+        <div id="burger" class="cursor-pointer group block w-10 h-9 relative top-5 justify-end block xd:ml-8
+                                bg-slate-900 transition duration-300 hover:bg-white md:hidden">
+            <div class="relative mx-auto w-4/6 h-1 mt-2 rounded bg-white group-hover:bg-black"></div>
+            <div class="relative mx-auto w-4/6 h-1 top-1 rounded bg-white group-hover:bg-black"></div>
+            <div class="relative mx-auto w-4/6 h-1 top-2 rounded bg-white group-hover:bg-black"></div>
+        </div>
+    </div>
+</header>
+<section>
+    <div class="block relative px-10 py-20 md:max-w-screen-lg md:mx-auto mm:flex">
+        <div class="w-full mx-auto">
+            <img class="rounded" src="assets/images/big-4.jpg" alt="pic">
+        </div>
+        <div class="px-5 overflow-hidden">
+            <p class="mt-0">
+                <span class="text-textColor mr-4">Auctions ends in</span>
+                <input class="bg-slate-900 text-white font-medium" type="text" id="currentTime">
+            </p>
+            <h3 class="text-xl sm:text-4xl font-medium text-white mt-4">AnimeSailorClub #304</h3>
+            <div class="mt-4 grid grid-cols-1 justify-center xxd:justify-start xxd:mx-auto xxd:flex xxd:gap-3">
+                <i class="fa fa-picture-o xxd:w-20 text-center bg-back-i p-2 rounded text-gray-200" aria-hidden="true">
+                    <span class="text-textColor">Art</span>
+                </i>
+                <i class="fa fa-eye xxd:w-20 text-center my-2 xxd:my-0 bg-back-i p-2 rounded text-gray-200" aria-hidden="true">
+                    <span class="text-textColor">250</span>
+                </i>
+                <i class="fa fa-heart xxd:w-20 text-center bg-back-i p-2 rounded text-gray-200" aria-hidden="true">
+                    <span class="text-textColor">18</span>
+                </i>
+            </div>
+            <p class="mt-4 text-textColor">
+                Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium,
+                totam
+                rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt
+                explicabo.
+            </p>
+            <div class="grid text-sm xd:text-md xd:flex gap-8 text-white mt-4">
+                <div>
+                    Creator
+                    <div class="cursor-pointer flex relative mt-4">
+                        <img class="w-14 rounded-full hover:border-4 border-button" src="assets/images/author-1.jpg"
+                             alt="photo Creator">
+                        <i class="fa fa-check-circle text-button absolute left-10 top-10 bg-white rounded-full"
+                           aria-hidden="true"></i>
+                        <span class="font-medium mt-3.5 ml-4">Monica Lucas</span>
+                    </div>
+                </div>
+                <div>
+                    Collection
+                    <div class="cursor-pointer flex relative mt-4">
+                        <img class="w-14 rounded-full hover:border-4 border-button"
+                             src="assets/images/coll-thumbnail-1.jpg" alt="pic">
+                        <i class="fa fa-check-circle text-button absolute left-10 top-10 bg-white rounded-full"
+                           aria-hidden="true"></i>
+                        <span class="font-medium mt-3.5 ml-4">AnimeSailorClub</span>
+                    </div>
+                </div>
+            </div>
+            <div class="mt-4">
+                <button class="cursor-pointer bg-back-i text-white p-3 rounded w-20">Details</button>
+                <button class="cursor-pointer bg-back-i text-white p-3 rounded w-20 my-2 sm:my-0 sm:mx-3">Bids</button>
+                <button class="cursor-pointer bg-back-i text-white p-3 rounded w-20">History</button>
+            </div>
+            <div>
+                <div class="text-white mt-4">
+                    Owner
+                    <div class="cursor-pointer flex relative mt-4">
+                        <img class="w-14 rounded-full hover:border-4 border-button" src="assets/images/author-10.jpg">
+                        <i class="fa fa-check-circle text-button absolute left-10 top-10 bg-white rounded-full"
+                           aria-hidden="true"></i>
+                        <span class="font-medium mt-3.5 ml-4">Monica Lucas</span>
+                    </div>
+                </div>
+                <h6 class="mt-4 text-white font-medium">Properties</h6>
+                <div class="grid grid-cols-1 grid-rows-3 gap-2 mt-4 sm:grid-cols-2 md:grid-cols-3">
+                    <div class="cursor-pointer border border-gray-700 rounded text-center
+                         hover:bg-regal-blue transition duration-200 p-2">
+                        <p class="text-colorBox font-medium">Background</p>
+                        <p class="text-white mt-1 text-lg">Yellowish Sky</p>
+                        <p class="text-gray-500 mt-1 text-xs">85% have this trait</p>
+                    </div>
+                    <div class="cursor-pointer border border-gray-700 rounded text-center
+                        hover:bg-regal-blue transition duration-200">
+                        <p class="text-colorBox font-medium">Eyes</p>
+                        <p class="text-white mt-1 text-lg">Purple Eyes</p>
+                        <p class="text-gray-500 mt-1 text-xs">14% have this trait</p>
+                    </div>
+                    <div class="cursor-pointer border border-gray-700 rounded text-center
+                        hover:bg-regal-blue transition duration-200">
+                        <p class="text-colorBox font-medium">Nose</p>
+                        <p class="text-white mt-1 text-lg">Small NOse</p>
+                        <p class="text-gray-500 mt-1 text-xs">45% have this trait</p>
+                    </div>
+                    <div class="cursor-pointer border border-gray-700 rounded text-center
+                        hover:bg-regal-blue transition duration-200">
+                        <p class="text-colorBox font-medium">Mouth</p>
+                        <p class="text-white mt-1 text-lg">Smile Red Lip</p>
+                        <p class="text-gray-500 mt-1 text-xs">61% have this trait</p>
+                    </div>
+                    <div class="cursor-pointer border border-gray-700 rounded text-center
+                        hover:bg-regal-blue transition duration-200">
+                        <p class="text-colorBox font-medium">Neck</p>
+                        <p class="text-white mt-1 text-lg">Pink Ribbon</p>
+                        <p class="text-gray-500 mt-1 text-xs">27% have this trait</p>
+                    </div>
+                    <div class="cursor-pointer border border-gray-700 rounded text-center
+                        hover:bg-regal-blue transition duration-200">
+                        <p class="text-colorBox font-medium">Hair</p>
+                        <p class="text-white mt-1 text-lg">Pink short</p>
+                        <p class="text-gray-500 mt-1 text-xs">35% have this trait</p>
+                    </div>
+                    <div class="cursor-pointer border border-gray-700 rounded text-center
+                        hover:bg-regal-blue transition duration-200">
+                        <p class="text-colorBox font-medium">Accessories</p>
+                        <p class="text-white mt-1 text-lg">Heart Necklace</p>
+                        <p class="text-gray-500 mt-1 text-xs">33% have this trait</p>
+                    </div>
+                    <div class="cursor-pointer border border-gray-700 rounded text-center
+                        hover:bg-regal-blue transition duration-200">
+                        <p class="text-colorBox font-medium">Hat</p>
+                        <p class="text-white mt-1 text-lg">Cute Panda</p>
+                        <p class="text-gray-500 mt-1 text-xs">62% have this trait</p>
+                    </div>
+                    <div class="cursor-pointer border border-gray-700 rounded text-center
+                        hover:bg-regal-blue transition duration-200">
+                        <p class="text-colorBox font-medium">Clothes</p>
+                        <p class="text-white mt-1 text-lg">Casual Purple</p>
+                        <p class="text-gray-500 mt-1 text-xs">78% have this trait</p>
+                    </div>
+                </div>
+            </div>
+            <div class="text-white font-medium mt-4">
+                price
+                <div>
+                    <span class="text-gray-300 bg-colorBox text-2xl px-1.5 mr-2 rounded-full">
+                        <i class="fa fa-usd ml-0.5" aria-hidden="true"></i>
+                    </span>
+                    <span class="text-3xl">0.059 <sub class="text-lg text-textColor">($253.67)</sub></span>
+                </div>
+                <div class="grid xd:flex gap-2 mt-4 p-2 overflow-visible">
+                    <button class="bg-button font-medium rounded py-3 px-10 shadow-md transition duration-200 hover:shadow-indigo-500/50">
+                        Buy Now
+                    </button>
+                    <button class="bg-regal-blue font-medium text-textColor rounded p-3 px-10 shadow-md transition duration-200 hover:shadow-indigo-500/50">
+                        Place a Bid
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<footer class="bg-footColor">
+    <div class="grid px-10 mx-auto py-20 border-b border-gray-700 md:max-w-screen-lg md:mx-auto sm:grid-cols-2 mm:grid-cols-4">
+        <div>
+            <h3 class="text-white font-medium text-xl">Marketplace</h3>
+            <ul class="text-textColor mt-4 leading-8">
+                <li class="cursor-pointer transition duration-200 hover:text-colorBox">All NFTs</li>
+                <li class="cursor-pointer transition duration-200 hover:text-colorBox">Art</li>
+                <li class="cursor-pointer transition duration-200 hover:text-colorBox">Art</li>
+                <li class="cursor-pointer transition duration-200 hover:text-colorBox">Art</li>
+                <li class="cursor-pointer transition duration-200 hover:text-colorBox">Art</li>
+                <li class="cursor-pointer transition duration-200 hover:text-colorBox">Art</li>
+            </ul>
+        </div>
+        <div>
+            <h3 class="text-white font-medium text-xl">Resources</h3>
+            <ul class="text-textColor mt-4 leading-8">
+                <li class="cursor-pointercursor-pointer  transition duration-200 hover:text-colorBox">Help Center</li>
+                <li class="cursor-pointercursor-pointer  transition duration-200 hover:text-colorBox">Partners</li>
+                <li class="cursor-pointercursor-pointer  transition duration-200 hover:text-colorBox">Partners</li>
+                <li class="cursor-pointercursor-pointer  transition duration-200 hover:text-colorBox">Partners</li>
+                <li class="cursor-pointercursor-pointer  transition duration-200 hover:text-colorBox">Partners</li>
+                <li class="cursor-pointercursor-pointer  transition duration-200 hover:text-colorBox">Partners</li>
+            </ul>
+        </div>
+        <div>
+            <h3 class="text-white font-medium text-xl">Community</h3>
+            <ul class="text-textColor mt-4 leading-8">
+                <li class="cursor-pointer transition duration-200 hover:text-colorBox">Community</li>
+                <li class="cursor-pointer transition duration-200 hover:text-colorBox">Documentation</li>
+                <li class="cursor-pointer transition duration-200 hover:text-colorBox">Documentation</li>
+                <li class="cursor-pointer transition duration-200 hover:text-colorBox">Documentation</li>
+                <li class="cursor-pointer transition duration-200 hover:text-colorBox">Documentation</li>
+                <li class="cursor-pointer transition duration-200 hover:text-colorBox">Documentation</li>
+            </ul>
+        </div>
+        <div>
+            <h3 class="text-white font-medium text-xl">Newletter</h3>
+            <ul class="text-textColor mt-4 leading-6 w-full">
+                <li>
+                    <p>Signup for our newsletter to get the latest news in your inbox.</p>
+                </li>
+                <li>
+                    <div class="flex flex-1 w-full">
+                        <input id="input" class="my-2 w-10/12 xd:w-80 bg-gray-600 p-2 rounded placeholder-white" type="email"
+                               placeholder="enter your email">
+                        <label for="input" class="cursor-pointer">
+                            <i class="fa fa-long-arrow-right p-3 px-5 relative -ml-5 top-2  bg-button text-white rounded-r"
+                               aria-hidden="true"></i>
+                        </label>
+                    </div>
+                </li>
+                <li>
+                    <p>Your email is safe with us. We don't spam.</p>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <div class="grid md:max-w-screen-lg md:mx-auto px-10 py-10">
+        <div class="grid">
+            <img src="assets/images/logo-light.png" alt="pic">
+            <p class="text-textColor my-2">© Copyright 2022 - Gigaland by Designesia</p>
+        </div>
+        <div class="flex mt-1.5  gap-2 xxd:gap-3 text-white">
+            <i class="fa fa-facebook cursor-pointer bg-regal-blue w-10 text-center p-2 rounded-md transition duration-300 hover:bg-white hover:text-black"
+               aria-hidden="true"></i>
+            <i class="fa fa-instagram cursor-pointer bg-regal-blue w-10 text-center p-2 rounded-md transition duration-300 hover:bg-white hover:text-black"
+               aria-hidden="true"></i>
+            <i class="fa fa-twitter cursor-pointer bg-regal-blue w-10 text-center p-2 rounded-md transition duration-300 hover:bg-white hover:text-black"
+               aria-hidden="true"></i>
+            <i class="fa fa-pinterest-p cursor-pointer bg-regal-blue w-10 text-center p-2 rounded-md transition duration-300 hover:bg-white hover:text-black"
+               aria-hidden="true"></i>
+            <i class="fa fa-wifi cursor-pointer bg-regal-blue w-10 text-center p-2 rounded-md transition duration-300 hover:bg-white hover:text-black"
+               aria-hidden="true"></i>
+        </div>
+    </div>
+</footer>
+<script>
+    let today = new Date();
+    let time = today.getHours() + ":" + today.getMinutes() + ":" + today.getSeconds();
+    document.getElementById("currentTime").value = time;
+    let burger = document.querySelector('#burger');
+    let header = document.querySelector('header');
+    burger.addEventListener('click',function (){
+        if(header.style.paddingBottom < '18rem'){
+            header.style.paddingBottom = '18rem';
+            header.style.transition = 'all 2s';
+            console.log('its work');
+            return;
+        }
+        if(header.style.paddingBottom === '18rem'){
+            header.style.paddingBottom = '0';
+            header.style.transition = 'all 2s';
+            console.log('its worked')
+        }
+        else {
+            console.log("its not work");
+        }
+    });
+</script>
+</body>
+</html>
